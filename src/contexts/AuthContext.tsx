@@ -42,6 +42,8 @@ export function signOut() {
     destroyCookie(undefined, 'burnauth.refreshToken')
 
     authChannel.postMessage('signOut')
+
+    console.log("sign out")
     
     Router.push('/')
 }

@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/forget_password": [
+    "/store": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/forget_password.js"
+      "static/chunks/pages/store.js"
     ],
     "/store/cliente": [
       "static/chunks/webpack.js",

@@ -51,7 +51,7 @@ export function Header({usuario}: Header) {
            {/* { isWideVersion && <SearchBox />} */}
 
             <Flex align="center" ml="auto">
-                {/* <NotificationsNav /> */}
+                <NotificationsNav />
 
                 <Profile usuario={usuario} showProfileData={isWideVersion} />
             </Flex>
